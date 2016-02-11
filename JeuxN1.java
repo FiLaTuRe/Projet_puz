@@ -123,3 +123,81 @@ commentaire.setText(R.string.game_feedback_text);
    }
    });
    }
+
+
+   //fonction qui sert à remplir la grille
+   public void remplir_g()
+   {
+   for(int i=0;i<9;i++)
+   {
+   int p= cellules.get(i);
+   AbsoluteLayout.LayoutParams absParams =
+   (AbsoluteLayout.LayoutParams)buttons[p].getLayoutParams();
+   switch(i)
+   {case(0):
+   		 
+		 absParams.x = 5;
+		 absParams.y = 5;
+		 buttons[p].setLayoutParams(absParams);
+		 break;
+		 case(1):
+		 			
+absParams.x = 110;
+absParams.y = 5;
+buttons[p].setLayoutParams(absParams);
+break;
+case(2):
+								
+absParams.x = 215;
+absParams.y = 5;
+buttons[p].setLayoutParams(absParams);
+break;
+case(3):
+											
+absParams.x = 5;
+absParams.y = 110;
+buttons[p].setLayoutParams(absParams);
+break;
+case(4):
+absParams.x =110;
+absParams.y =110;
+buttons[p].setLayoutParams(absParams);
+break;
+case(5):
+														 
+absParams.x = 215;
+absParams.y =110;
+buttons[p].setLayoutParams(absParams);
+break;
+case(6):
+														 			 
+absParams.x = 5;
+absParams.y = 215;
+buttons[p].setLayoutParams(absParams);
+break;
+case(7):
+																	 			 
+absParams.x = 110;
+absParams.y = 215;
+buttons[p].setLayoutParams(absParams);
+ break;
+case(8):
+																				 			 
+absParams.x = 215;
+absParams.y = 215;
+buttons[p].setLayoutParams(absParams);
+break;
+}
+}
+}
+public int trouver_pos(int element)
+{
+int i=0;
+for(i=0;i<9;i++)
+{
+if(cellules.get(i)==element)
+{break;
+}}
+return i;
+}
+}
