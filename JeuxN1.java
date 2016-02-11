@@ -45,5 +45,8 @@ public void onClick(View v) {
 fairebouger((Button) v);
 }
 });}
-nbrdeplacement.setText("0");																					commentaire.setText(R.string.game_feedback_text);
-}
+nbrdeplacement.setText("0");
+
+commentaire.setText(R.string.game_feedback_text);
+}  c un comes
+:x
