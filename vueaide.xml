@@ -1,0 +1,31 @@
+nearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+      android:layout_height="fill_parent" android:orientation="vertical">
+        
+	  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:textSize="25dip"
+	      android:text="Disposez les tuiles de facon à constituè l&apos;image initiale "
+	            android:id="@+id/f2" />
+		      
+		        <ImageView 
+			    android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"
+				    android:id="@+id/TitleImage"
+				        android:background="@drawable/s1"
+					    
+					        android:layout_marginTop="24px">
+						  </ImageView>
+
+						    <ImageView
+						          android:layout_width="wrap_content"
+							        android:layout_height="wrap_content"
+								      android:id="@+id/TitleImage2"
+								            android:background="@drawable/s3"
+
+									          android:layout_marginTop="24px"
+										        android:layout_gravity="right|top">
+											  </ImageView>
+
+											  </LinearLayout>
+
