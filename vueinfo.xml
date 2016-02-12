@@ -1,0 +1,69 @@
+nearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+      android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:weightSum="1">
+
+	        <LinearLayout
+		        android:orientation="vertical"
+			        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+					        android:layout_weight="0.11"></LinearLayout>
+
+						    <TextView android:layout_width="248dp" android:layout_height="wrap_content"
+						        android:textSize="30dip"
+
+							        android:text="Réalisé par :" />
+
+								    <LinearLayout
+								            android:orientation="horizontal"
+									            android:layout_width="match_parent"
+										            android:layout_height="wrap_content"
+											            android:layout_weight="0.14">
+
+												        </LinearLayout>
+
+													    <LinearLayout
+													            android:orientation="vertical"
+														            android:layout_width="match_parent"
+															            android:layout_height="wrap_content"
+																            android:layout_gravity="center_horizontal">
+
+																	            <TextView android:layout_width="235dp" android:layout_height="wrap_content"
+																		            android:textSize="25dip"
+
+																			                android:text="Kerrache Sabrina" />
+																					    </LinearLayout>
+
+																					        <LinearLayout
+																						        android:orientation="vertical"
+																							        android:layout_width="match_parent"
+																								        android:layout_height="wrap_content"
+																									        android:layout_gravity="center_horizontal">
+
+																										        <TextView
+																											            android:layout_width="175dp"
+																												                android:layout_height="wrap_content"
+																														            android:text="&amp;"
+																															                android:id="@+id/textView"
+																																	            android:layout_gravity="center_horizontal"
+																																		                android:textSize="25dp" />
+																																				    </LinearLayout>
+
+																																				        <TextView android:layout_width="236dp" android:layout_height="wrap_content"
+																																					  android:textSize="25dip"
+
+																																					        android:layout_gravity="center"
+																																						        android:text="Meziane Mohamed "
+																																							        android:id="@+id/f1" />
+
+																																								    <LinearLayout
+																																								            android:orientation="vertical"
+																																									            android:layout_width="match_parent"
+																																										            android:layout_height="wrap_content"
+																																											            android:layout_gravity="center_horizontal"
+																																												            android:layout_weight="0.13"></LinearLayout>
+
+																																													    </LinearLayout>
+
